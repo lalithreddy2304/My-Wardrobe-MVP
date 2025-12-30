@@ -1,36 +1,131 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+#  My Wardrobe – Smart Outfit & Shopping Assistant
 
-## Getting Started
+ **Microsoft Imagine Cup 2025 – Student MVP Project**
 
-First, run the development server:
+My Wardrobe is a **Minimum Viable Product (MVP)** built by **first-year engineering students** to explore how technology can simplify outfit selection and reduce impulsive shopping using a digital wardrobe concept.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This project focuses on **idea validation, user experience, and core functionality**, rather than a fully scaled backend system.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+##  Problem Statement
+Many students and working professionals struggle with:
+- Choosing outfits daily
+- Lack of fashion knowledge
+- Buying clothes they already have similar alternatives for
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This leads to wasted money, unused clothing, and decision fatigue.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+##  Proposed Solution
+**My Wardrobe** introduces a simple digital wardrobe that helps users:
+- Organize their clothes digitally
+- Get quick outfit suggestions
+- Decide whether buying a new clothing item is actually necessary
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+*Note:* This is an **MVP**, built to demonstrate the concept and user flow.  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+##  Key Features (MVP Scope)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Authentication
+- Email / Google login
+- Basic user profiles  
+*(Implemented using Supabase for MVP-level authentication)*
+
+---
+
+###  Digital Wardrobe
+- Upload images of clothing items
+- Categorized into:
+  - Shirts
+  - Pants
+  - T-Shirts
+  - Jackets
+  - Shoes
+- Simple and clean grid-based UI
+
+---
+
+###  Outfit Matching
+- User selects one clothing item
+- App suggests 1–3 matching outfit combinations
+- Basic logic-based explanation  
+  *(e.g., color and style compatibility)*
+
+---
+
+###  Outfit by Occasion
+- One-tap outfit suggestions for:
+  - College
+  - Office
+  - Casual
+  - Party
+- Designed for busy users with minimal interaction
+
+---
+
+###  “Should I Buy This?”
+- User uploads an image of a clothing item while shopping
+- App checks against existing wardrobe
+- Helps users avoid unnecessary or duplicate purchases
+
+---
+
+##  Tech Stack
+- **Frontend:** Next.js, React
+- **Backend (MVP-level):** Supabase (Auth & basic database)
+- **Deployment:** Vercel
+- **Version Control:** GitHub
+
+---
+
+##  Live Demo
+ **Deployed on Vercel:**  
+this is a demo link of the mvp
+[https://my-wardrobe-mvp-vh8w.vercel.app/login]
+
+---
+
+##  Microsoft Imagine Cup Context
+This project is developed as part of the **Microsoft Imagine Cup**, with the goal of:
+- Solving a real-world problem faced by students
+- Demonstrating a practical MVP
+- Showcasing product thinking, not a full-scale production system
+
+As **first-year students**, the focus is on:
+- Learning real-world development workflows
+- Building a functional prototype
+- Understanding user needs and product design
+
+---
+
+##  Limitations (Current MVP)
+- Limited backend complexity
+- No advanced AI or ML models yet
+- Basic recommendation logic
+- Designed for demonstration and validation purposes
+
+---
+
+## Future Improvements
+- AI-based color & style detection
+- Smarter outfit recommendations
+- Price comparison across online stores
+- Celebrity-inspired outfit recreation
+- Personalized fashion insights
+
+---
+
+##  Author
+**Lalith Reddy**  
+B.Tech CSE – First Year Student  
+
+GitHub: https://github.com/lalithreddy2304
+
+---
+
+ This repository represents an **early-stage MVP**, built for learning, experimentation, and innovation.
